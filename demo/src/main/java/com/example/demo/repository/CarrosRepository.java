@@ -27,13 +27,13 @@ public class CarrosRepository {
         c.put(8,new Carro(8,"Seat","Marrom"));
         c.put(9,new Carro(9,"Toyota","Verde"));
     }
-    public Carro GetCarrobyId(int id){
+    public Carro getCarrobyId(int id){
         return c.get(id);
     }
-    public HashMap<Integer,Carro> GetCarros(){
+    public HashMap<Integer,Carro> getCarros(){
         return c;
     }
-    public int  GetCarroCount(){
+    public int  getCarroCount(){
         return c.size();
     }
     
